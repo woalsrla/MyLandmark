@@ -4,40 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".infoActivity"
-    android:padding="10dp">
+    android:padding="10dp"
+    tools:context=".InfoActivity">
 
     <TextView
+        style="@style/title_style"
+        android:id="@+id/title_info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="32dp"
-        android:text="모험의 나라 롯데월드"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         android:gravity="center_horizontal"
-        android:textStyle="bold"
-        android:id="@+id/title_info"
-        android:layout_margin="10dp"/>
+        android:text="꿈과 희망의 에버랜드"    />
 
     <ImageView
+        android:id="@+id/img_info"
         android:layout_width="wrap_content"
         android:layout_height="440dp"
-        android:src="@drawable/ic_launcher_foreground"
         android:layout_below="@id/title_info"
         android:layout_centerHorizontal="true"
-        android:id="@+id/"/>
+        android:src="@drawable/info1" />
+
     <TextView
+        android:id="@+id/txt_info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="설명이 들어올 자리"
-        android:layout_below="@+id/ic_"
+        android:layout_below="@id/img_info"
         android:layout_centerHorizontal="true"
         android:layout_marginVertical="10dp"
-        android:id=""/>
+        android:text="설명이 들어올 자리" />
+
     <Button
+        android:id="@+id/btn_info_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below=""
-        android:id=""
+        android:layout_below="@id/txt_info"
         android:layout_alignParentRight="true"
-        android:text="뒤로"/>
-
+        android:text="뒤로" />
 </RelativeLayout>
+
+
+

@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.MyLandmark" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#8BC34A</item>
+        <item name="colorPrimary">#CDDC39</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
@@ -15,5 +15,4 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-
 </resources>

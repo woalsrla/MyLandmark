@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyLandmark">
         <activity
-            android:name=".infoActivity"
+            android:name=".CallActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GuideActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InfoActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
